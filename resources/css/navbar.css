@@ -1,0 +1,33 @@
+
+.navigationBar{
+	width: 100%;
+	background: #1d1d1d;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	min-height: 70px;
+	padding: 10px 15px;
+
+}
+.navigationBar .brand h3{
+	color: #1aa1a8;
+	font-size: 22px;
+	text-transform: uppercase;
+}
+.navigationBar .navigationMenu ul{
+	display: flex;
+	justify-content: space-around;
+	width: 600px;
+	list-style: none;
+
+}
+.navigationBar .navigationMenu ul li a{
+	color: white;
+	font-size: 1.2em;
+	font-family: 'Akronim', cursive;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+.navigationBar .navigationMenu ul li a:hover{
+	color: grey;
+}

@@ -1,0 +1,35 @@
+
+.footer{
+	min-height: 300px;
+	background: #1d1d1d;
+	padding: 10px 15px;
+}
+.footer .footerheading h4{
+	color: white;
+	text-align: center;
+	font-weight: 300;
+}
+.footer .footerContent{
+	padding: 10px 30px;
+	display: flex;
+	justify-content: space-around;
+}
+.footer .footerContent .footerContentLayout a{
+	text-decoration: none;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.footer .footerContent .footerContentLayout a img{
+	width: 55px;
+	height: 55px;
+}
+.footer .footerContent .footerContentLayout a span{
+	color: white;
+	font-size: 16px;
+}
+.footer .copyrightArea{
+ text-align: center;
+ color: #1aa1a8;
+ padding: 40px 0;
+}
